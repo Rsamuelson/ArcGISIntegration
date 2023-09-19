@@ -9,7 +9,7 @@ var token = "[token]"; //TODO: Set token/Api Key
 var validReferrer = "[referrer]"; //TODO: set valid referrer
 var invalidReferrer = "abcd1234";
 
-var validAddress = "2309 Euclid Ave, Lower Beaver, Des Moines, 50310";
+var validAddress = "911 42nd St, Des Moines, IA 50312";
 
 //Valid Referrer
 var expectedValidResult = await new ArcGisService(validReferrer).GetAddressLocationCoordinatesAsync(validAddress, token); 
